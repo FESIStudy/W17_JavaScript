@@ -46,7 +46,7 @@
 
 ### **2.1 이벤트 루프 동작 원리**
 
-![image.png](attachment:1fa3199a-7ba0-4c12-997f-a8cba89f93a9:image.png)
+<img width="825" alt="image" src="https://github.com/user-attachments/assets/6b58c83f-5f32-4afb-ad73-c0988864fe5e" />
 
 - JS는 싱글스레드이기에, 동시에 하나의 작업만 실행 가능
 - 주요 구성 요소:
@@ -67,6 +67,7 @@
   Promise.resolve().then(() => console.log("promise"));
   ```
   출력 순서: promise → timeout
+  
   https://wikidocs.net/251949
 
 ### **2.3 브라우저와 Node.js의 차이**
